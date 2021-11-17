@@ -20,16 +20,15 @@
         android:id="@+id/txtUserInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/hint_custom_receiver"
+        android:importantForAutofill="no"
+        android:inputType="text"
         android:textSize="@dimen/text_size_normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck"
-        android:importantForAutofill="no"
-        android:hint="@string/hint_custom_receiver"
-        android:inputType="text"
-        />
+        tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
 
     <Button
         android:id="@+id/btnContinue"

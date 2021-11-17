@@ -2,4 +2,5 @@
 <resources>
     <dimen name="text_size_normal">20sp</dimen>
     <dimen name="text_size_title">30sp</dimen>
+    <dimen name="spinner_height_default">48dp</dimen>
 </resources>
