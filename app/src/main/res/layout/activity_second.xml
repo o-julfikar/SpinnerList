@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/white">
+    tools:context=".SecondActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,19 +12,23 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/first_view_heading"
+        android:text="@string/second_view_heading"
         android:textSize="@dimen/text_size_title"
         />
 
-    <Spinner
-        android:id="@+id/spinBroadcast"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/txtUserInput"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:entries="@array/broadcast_operations"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAutofill="no"
+        android:hint="@string/hint_custom_receiver"
+        android:inputType="text"
         />
 
     <Button

@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">SpinnerList</string>
+    <string name="next_button_text">Continue</string>
+    <string name="hint_custom_receiver">Please enter the custom receiver</string>
+    <string name="hint_battery_percentage">Please enter the battery percentage</string>
+    <string name="first_view_heading">First View</string>
+    <string name="second_view_heading">Second View</string>
+    <string name="third_view_heading">Third View</string>
+    <string name="wifi_status_on">WIFI ON</string>
+    <string name="wifi_status_off">WIFI OFF</string>
+
+    <string-array name="broadcast_operations">
+        <item>Custom broadcast receiver</item>
+        <item>Wifi RTT state change receiver</item>
+        <item>System battery notification receiver</item>
+    </string-array>
 </resources>
